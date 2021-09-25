@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+body {
+  background: white;
+  font-family: "Comfortaa", cursive;
+}
+
+.container {
+  background: linear-gradient(180deg, #f8c0a1 0%, rgba(196, 196, 196, 0) 100%);
+  color: #black;
+  margin: 74px;
+  border-radius: 20px;
+  box-shadow: 6px 6px #0e1d2f;
+  padding: 64px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 18px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  background: #94dade;
+  margin-top: 34px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.projetos-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.dark {
+  background: #484949;
+}
+
+.dark .container {
+  background: #484949;
+  color: white;
+}
+.dark .projetos {
+  color: #348b97;
+}
+
+.dark .tema button {
+  background: black;
+  color: #348b97;
+  border: 2px solid #f7f7f7;
+}
